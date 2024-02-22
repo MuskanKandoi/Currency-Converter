@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(grey,black);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height:595px;
+}
+.title
+{
+    background-color: rgb(7, 7, 86);
+    color: #ffffff;
+}
+
+.title
+{
+   
+    display: flex;
+    justify-content: center;
+}
+.header{
+    margin-top: 10px;
+}
+.head{
+    margin-top: 100px;
+    background-color: rgb(196, 181, 167) ;
+    height: 50px;
+    color: black;
+    width:765px;
+    margin-left: 25%;
+    margin-bottom:-120px ;
+    border: 2px solid black;
+     box-shadow: 10px 10px 10px rgb(76, 76, 77);
+     text-align: center;
+     font-size: x-large;
+}
+#ic{
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.box2
+{
+    background-color: rgb(196, 181, 167) ;
+    margin-top: 140px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+     box-shadow: 10px 10px 10px rgb(76, 76, 77);
+    
+}
+.line1{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.one{
+    margin-left: 10%;
+    margin-right: 20px;
+}
+.line2
+{
+    display: flex;
+    margin-top: 40px;
+}
+.num{
+    margin-left: 100px;
+}
+.submit
+{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.final{
+    display: flex;
+    margin-left: 25%;
+}
+#amount2{
+    margin-top: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
