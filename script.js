@@ -94,6 +94,7 @@ function convertCurrency(amount, fromCurrency, toCurrency) {
     if (fromCurrency === "AED" && toCurrency === "JPY") return amount * 40.91872;
     if (fromCurrency === "AED" && toCurrency === "MXN") return amount * 4.64121;
     if (fromCurrency === "AED" && toCurrency === "RUB") return amount * 25.13984;
+    if (fromCurrency === "AED" && toCurrency === "INR") return amount * 22.56;
 
     if (fromCurrency === "JPY" && toCurrency === "USD") return amount * 0.00665;
     if (fromCurrency === "JPY" && toCurrency === "EUR") return amount * 0.00614;
